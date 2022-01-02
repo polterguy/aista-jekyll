@@ -1,6 +1,11 @@
 
+body {
+  margin:0;
+}
+
 .banner {
   background-color: #333;
-  min-height: 300px;
   color: #fafafa;
+  padding: 3rem;
+  text-align: center;
 }
