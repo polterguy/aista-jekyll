@@ -55,7 +55,7 @@ h2, h3, h4, h5, h6 {
   display: block;
   margin: 3rem auto 3rem auto;
   border-radius: .5rem;
-  box-shadow: 5px 5px 8px rgba(0,0,0,.8);
+  box-shadow: 3px 3px 8px rgba(0,0,0,.8);
 }
 
 .content .copyright {
