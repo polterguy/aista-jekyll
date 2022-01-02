@@ -1,7 +1,7 @@
 
 body {
   margin:0;
-  color: #fc0;
+  color: #fafafa;
   background-color: #555;
 }
 
@@ -12,8 +12,14 @@ body {
   border-bottom: solid 1px rgb(0,0,0);
 }
 
+.banner h1 {
+  color: #fc0;
+}
+
 .content {
   max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
