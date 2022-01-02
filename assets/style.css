@@ -16,12 +16,12 @@ a {
   padding: 1rem;
   text-align: center;
   border-bottom: solid 1px #202020;
-  position: relative;
   background-image: url(/assets/bg.jpeg);
   box-shadow: 0 5px 5px rgb(0,0,0);
   position: fixed;
   z-index: 1;
   width: 100vw;
+  background-size: cover;
 }
 
 .banner h1 {
@@ -29,6 +29,7 @@ a {
   font-size: 3rem;
   line-height: 3rem;
   margin: 1rem;
+  text-shadow: 3px 3px rgba(0,0,0,.8);
 }
 
 .content {
