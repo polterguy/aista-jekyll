@@ -33,6 +33,7 @@ body {
   bottom: .5rem;
   left: .5rem;
   animation: swosh .5s ease-out .5s 1 normal forwards;
+  opacity: 0;
 }
 
 .content {
