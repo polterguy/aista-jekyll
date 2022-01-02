@@ -17,10 +17,22 @@ body {
   color: #fc0;
 }
 
+@keyframes swosh {
+  0% {
+    margin-left: 2000px;
+    opacity: 0;
+  }
+  100% {
+    margin-left: 0;
+    opacity: 1;
+  }
+}
+
 .banner .description {
   position: absolute;
   bottom: .5rem;
   left: .5rem;
+  animation: swosh .5s ease-out .5s 1 normal forwards;
 }
 
 .content {
