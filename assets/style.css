@@ -63,13 +63,6 @@ h1 {
   box-shadow: 3px 3px 8px rgba(0,0,0,.8);
 }
 
-@media screen and (min-width: 1024px) {
-  .content {
-    padding: 100px 3rem 3rem 3rem;
-    margin: 0 0 3rem 0;
-  }
-}
-
 .content .video {
   position:relative;
   padding-bottom:56.25%;
@@ -102,8 +95,19 @@ h1 {
 .content .copyright {
   text-align: center;
   color: #999;
-  margin-top: 4rem;
-  margin-bottom: -2rem;
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .content {
+    padding: 100px 3rem 3rem 3rem;
+    margin: 0 0 3rem 0;
+  }
+  .content .copyright {
+    margin-top: 4rem;
+    margin-bottom: -2rem;
+  }
 }
 
 .highlight {
