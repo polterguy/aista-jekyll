@@ -12,7 +12,7 @@ a {
 }
 
 h2, h3, h4, h5, h6 {
-  color: #eaeaea;
+  color: #e5e5e5;
 }
 
 .banner {
@@ -40,8 +40,8 @@ h2, h3, h4, h5, h6 {
   max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #222;
-  padding: 220px 3rem 3rem 3rem;
+  background-color: #151515;
+  padding: 160px 3rem 3rem 3rem;
   margin-bottom: 3rem;
   border-radius: 0 0 1rem 1rem;
   border-right: solid 1px #353535;
