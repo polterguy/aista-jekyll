@@ -2,11 +2,11 @@
 body {
   margin:0;
   color: #ddd;
-  background-color: #555;
+  background-color: #333;
 }
 
 .banner {
-  background-color: #333;
+  background-color: #2b2b2b;
   padding: 3rem;
   text-align: center;
   border-bottom: solid 1px rgb(0,0,0);
@@ -42,4 +42,5 @@ body {
   margin-right: auto;
   padding-left: 2rem;
   padding-right: 2rem;
+  background-color: #444;
 }
