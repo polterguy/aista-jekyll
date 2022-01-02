@@ -2,7 +2,7 @@
 body {
   margin:0;
   color: #ddd;
-  background-color: #333;
+  background-color: #111;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -36,7 +36,7 @@ a {
   margin-right: auto;
   background-color: #444;
   padding: 3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   border-radius: 0 0 1rem 1rem;
   border-right: solid 1px #2b2b2b;
   border-bottom: solid 1px #2b2b2b;
