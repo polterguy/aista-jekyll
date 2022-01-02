@@ -19,7 +19,7 @@ body {
 
 .banner .description {
   position: absolute;
-  top: 1rem;
+  bottom: 1rem;
   right: 1rem;
 }
 
@@ -27,8 +27,6 @@ body {
   max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
   background-color: #444;
-  padding-top: 3rem;
+  padding: 3rem;
 }
