@@ -13,15 +13,21 @@ a {
 
 .banner {
   background-color: #2b2b2b;
-  padding: 3rem;
+  padding: 2rem;
   text-align: center;
   border-bottom: solid 1px #202020;
   position: relative;
   background-image: url(/assets/bg.jpeg);
+  box-shadow: 0 5px 5px rgb(0,0,0);
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
 }
 
 .banner h1 {
   color: #fc0;
+  font-size: 3rem;
+  line-height: 3rem;
 }
 
 .banner .description {
@@ -35,7 +41,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   background-color: #444;
-  padding: 3rem;
+  padding: 220px 3rem 3rem 3rem;
   margin-bottom: 3rem;
   border-radius: 0 0 1rem 1rem;
   border-right: solid 1px #2b2b2b;
