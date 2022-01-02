@@ -63,6 +63,7 @@ h2, h3, h4, h5, h6 {
   overflow:hidden;
   border-radius: .5rem;
   box-shadow: 3px 3px 8px rgba(0,0,0,.8);
+  margin-bottom: 3rem;
 }
 
 .content img {
