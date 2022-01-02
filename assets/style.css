@@ -15,10 +15,6 @@ h2, h3, h4, h5, h6 {
   color: #e5e5e5;
 }
 
-img {
-  max-width: 100%;
-}
-
 .banner {
   background-color: #2b2b2b;
   padding: 1rem;
@@ -52,6 +48,12 @@ img {
   border-bottom: solid 1px #252525;
   border-left: solid 1px #252525;
   box-shadow: 3px 3px 8px rgba(0,0,0,.8);
+}
+
+.content img {
+  max-width: 100%;
+  display: block;
+  margin: 1.5rem auto 1.5rem auto;
 }
 
 .content .copyright {
