@@ -79,8 +79,6 @@ h2, h3, h4, h5, h6 {
 .content ol img {
   display: inline;
   margin: unset;
-  border-radius: unset;
-  box-shadow: unset;
 }
 
 .content p {
