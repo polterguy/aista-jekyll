@@ -17,6 +17,7 @@ a {
   text-align: center;
   border-bottom: solid 1px #202020;
   position: relative;
+  background-image: url(/assets/bg.jpeg);
 }
 
 .banner h1 {
