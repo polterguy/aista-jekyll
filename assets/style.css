@@ -30,8 +30,8 @@ h2, h3, h4, h5, h6 {
 
 .banner h1 {
   color: #fc0;
-  font-size: 3rem;
-  line-height: 3rem;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
   margin: 1rem;
   text-shadow: 3px 3px rgba(0,0,0,.8);
 }
@@ -44,9 +44,9 @@ h2, h3, h4, h5, h6 {
   padding: 220px 3rem 3rem 3rem;
   margin-bottom: 3rem;
   border-radius: 0 0 1rem 1rem;
-  border-right: solid 1px #3b3b3b;
-  border-bottom: solid 1px #3b3b3b;
-  border-left: solid 1px #3b3b3b;
+  border-right: solid 1px #353535;
+  border-bottom: solid 1px #353535;
+  border-left: solid 1px #353535;
   box-shadow: 3px 3px 8px rgba(0,0,0,.8);
 }
 
