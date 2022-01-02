@@ -44,9 +44,9 @@ h2, h3, h4, h5, h6 {
   padding: 160px 3rem 3rem 3rem;
   margin-bottom: 3rem;
   border-radius: 0 0 1rem 1rem;
-  border-right: solid 1px #353535;
-  border-bottom: solid 1px #353535;
-  border-left: solid 1px #353535;
+  border-right: solid 1px #252525;
+  border-bottom: solid 1px #252525;
+  border-left: solid 1px #252525;
   box-shadow: 3px 3px 8px rgba(0,0,0,.8);
 }
 
