@@ -16,16 +16,15 @@ a:hover, a:active, a:focus {
   text-decoration: none;
 }
 
-h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   color: #e5e5e5;
   margin-top: 3rem;
+  text-shadow: 3px 3px 5px rgba(0,0,0,.8);
 }
 
 h1 {
-  color: #e5e5e5;
   margin-top: 4rem;
   margin-bottom: 2.5rem;
-  text-shadow: 3px 3px 5px rgba(0,0,0,.8);
 }
 
 .banner {
@@ -151,7 +150,7 @@ h1 {
 @media screen and (min-width: 1024px) {
   body {
     background-image: url(/assets/bg2.jpeg);
-    background-size: cover;
+    background-size: 100vw auto;
     background-attachment: fixed;
   }
   .banner h1 {
