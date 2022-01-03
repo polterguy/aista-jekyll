@@ -106,6 +106,19 @@ h1 {
   text-align: justify;
 }
 
+.content table {
+  width: 100%;
+}
+
+.content table tr th {
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.content table tr td img {
+  margin: 0;
+}
+
 .content .copyright {
   text-align: center;
   color: #999;
