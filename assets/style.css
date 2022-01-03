@@ -68,7 +68,7 @@ h1 {
   padding: 5px 15px 5px 30px;
   font-weight: bold;
   transition: background .2s, box-shadow .2s;
-  box-shadow: -1px 1px 8px rgba(0,0,0,1)
+  box-shadow: -3px 3px 8px rgba(0,0,0,1)
 }
 
 .banner .mwr a:hover,
@@ -76,7 +76,7 @@ h1 {
 .banner .mwr a:active {
   transition: background .2s, box-shadow .2s;
   background-position:40px;
-  box-shadow: -1px 1px 8px rgba(255,180,0,.7)
+  box-shadow: -3px 3px 8px rgba(255,180,0,.7)
 }
 
 @keyframes swosh {
