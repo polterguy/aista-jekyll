@@ -4,9 +4,6 @@ body {
   color: #bebebe;
   background-color: #111;
   font-family: 'Roboto', sans-serif;
-  background-image: url(/assets/bg2.jpeg);
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 a {
@@ -51,13 +48,6 @@ h1 {
   line-height: 2rem;
   margin: 1rem;
   text-shadow: 3px 3px rgba(0,0,0,.8);
-}
-
-@media screen and (min-width: 1024px) {
-  .banner h1 {
-    font-size: 2.5rem;
-    line-height: 2rem;
-  }
 }
 
 .content {
@@ -167,6 +157,15 @@ h1 {
 }
 
 @media screen and (min-width: 1024px) {
+  body {
+    background-image: url(/assets/bg2.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .banner h1 {
+    font-size: 2.5rem;
+    line-height: 2rem;
+  }
   .content {
     padding: 100px 3rem 3rem 3rem;
     margin: 0 auto 3rem auto;
