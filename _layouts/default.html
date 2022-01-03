@@ -16,17 +16,6 @@
       <div class="logo"><a href="/">{{ site.title }}</a></div>
       <span class="description">{{ site.description }}</span>
 
-      <h3>Getting Started</h3>
-      {{ site.docs.size }}
-      {{ site.tutorials.size }}
-      <ul>
-        {% for doc in site.docs %}
-          {% if doc.category == "tutorials" %}
-            <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-
     </div>
 
     <div class="content">
