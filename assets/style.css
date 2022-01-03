@@ -226,7 +226,7 @@ h1 {
   .banner .mwr a:active,
   .banner .mwr a:hover,
   .banner .mwr a:focus {
-    padding: 15px 15px 15px 30px;
+    padding: 10px 25px 10px 30px;
     transition: padding .5s;
   }
   .content {
