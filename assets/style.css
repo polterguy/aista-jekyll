@@ -55,6 +55,14 @@ h1 {
   right: 0;
 }
 
+.banner .mwr a {
+  background-color: #fc0;
+  color: #111;
+  display: block;
+  border-radius: 0 0 0 50px;
+  padding: 15px 15px 15px 30px;
+}
+
 @keyframes swosh {
   0% {
     margin-left: 800px;
