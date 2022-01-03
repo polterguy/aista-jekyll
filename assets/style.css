@@ -52,16 +52,8 @@ h1 {
 
 .content {
   max-width: 1024px;
-  margin-left: auto;
-  margin-right: auto;
   background-color: #151515;
   padding: 100px 1rem 1rem 1rem;
-  margin: 0 .5rem .5rem .5rem;
-  border-radius: 0 0 1rem 1rem;
-  border-right: solid 1px #252525;
-  border-bottom: solid 1px #252525;
-  border-left: solid 1px #252525;
-  box-shadow: 3px 3px 8px rgba(0,0,0,.8);
 }
 
 .content .video {
@@ -169,6 +161,11 @@ h1 {
   .content {
     padding: 100px 3rem 3rem 3rem;
     margin: 0 auto 3rem auto;
+    border-radius: 0 0 1rem 1rem;
+    border-right: solid 1px #252525;
+    border-bottom: solid 1px #252525;
+    border-left: solid 1px #252525;
+    box-shadow: 5px 5px 12px rgba(0,0,0,.8);
   }
   .content .copyright {
     margin-top: 4rem;
