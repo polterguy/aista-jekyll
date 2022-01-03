@@ -99,7 +99,7 @@ h1 {
 
 .content {
   max-width: 1024px;
-  background-color: #151515;
+  background: linear-gradient(#202020, #090909);
   padding: 100px 1rem 1rem 1rem;
 }
 
