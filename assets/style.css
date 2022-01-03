@@ -5,6 +5,8 @@ body {
   background-color: #111;
   font-family: 'Roboto', sans-serif;
   background-image: url(/assets/bg2.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 a {
