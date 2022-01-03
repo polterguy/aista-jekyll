@@ -63,14 +63,14 @@ h1 {
   border-radius: 0 0 0 50px;
   padding: 15px 15px 15px 30px;
   font-weight: bold;
-  transition: background .2s;
+  transition: background .5s;
 }
 
 .banner .mwr a:hover,
 .banner .mwr a:focus,
 .banner .mwr a:active {
-  background: linear-gradient(#fd5, #a70);
-  transition: background .2s;
+  transition: background .5s;
+  background-position:100px; 
 }
 
 @keyframes swosh {
