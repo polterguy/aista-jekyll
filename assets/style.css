@@ -115,6 +115,14 @@ h1 {
   font-size: 1.2rem;
 }
 
+.content table tr td {
+  padding: .5rem 0 .5rem 0;
+}
+
+.content table tr:hover td {
+  background-color: #000;
+}
+
 .content table tr td img {
   margin: 0;
 }
