@@ -197,8 +197,9 @@ h1 {
 }
 
 .content .copyright {
+  font-size: .8rem;
   text-align: center;
-  color: #999;
+  color: #555;
   margin-top: 2rem;
   margin-bottom: 0;
 }
