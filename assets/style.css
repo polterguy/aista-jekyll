@@ -106,6 +106,13 @@ h1 {
   text-align: justify;
 }
 
+.content blockquote {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .content table {
   width: 100%;
   margin-top: 3rem;
