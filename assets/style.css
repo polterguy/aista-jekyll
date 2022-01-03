@@ -103,6 +103,7 @@ h1 {
   background: linear-gradient(#202020, #090909);
   padding: 100px 1rem 1rem 1rem;
   min-height: calc(100vh - 100px);
+  position: relative;
 }
 
 .content .video {
@@ -202,6 +203,9 @@ h1 {
   color: #555;
   margin-top: 2rem;
   margin-bottom: 0;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
 }
 
 @media screen and (min-width: 1024px) {
@@ -229,8 +233,8 @@ h1 {
     min-height: unset;
   }
   .content .copyright {
-    margin-top: 4rem;
-    margin-bottom: -2rem;
+    position: absolute;
+    bottom: 1rem;
   }
 }
 
