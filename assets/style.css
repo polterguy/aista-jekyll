@@ -9,11 +9,13 @@ body {
 a {
   color: #fc0;
   text-decoration: none;
+  transition: color .2s;
 }
 
 a:hover, a:active, a:focus {
   color: #c90;
   text-decoration: none;
+  transition: color .2s;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -214,7 +216,7 @@ h1 {
 
   .banner .mwr a {
     min-width: 80px;
-    padding: 15px 15px 15px 30px;
+    padding: 10px 15px 10px 30px;
   }
   .content {
     padding: 100px 3rem 3rem 3rem;
