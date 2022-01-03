@@ -51,13 +51,21 @@ h1 {
   text-shadow: 3px 3px rgba(0,0,0,.8);
 }
 
-.banner .mwr {
+.banner .mwr,
+.banner .docs {
   position: absolute;
   top: 0;
   right: 0;
 }
 
-.banner .mwr a {
+.banner .docs {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.banner .mwr a,
+.banner .docs a {
   min-width: 50px;
   border: solid 1px black;
   background: linear-gradient(#fc0, #850);
@@ -67,16 +75,22 @@ h1 {
   border-radius: 0 0 0 50px;
   padding: 5px 15px 5px 30px;
   font-weight: bold;
-  transition: background .2s, box-shadow .2s;
-  box-shadow: -3px 3px 8px rgba(0,0,0,1)
+  transition: background .2s;
+}
+
+.banner .docs a {
+  border-radius: 0 0 50px 0;
+  padding: 5px 30px 5px 15px;
 }
 
 .banner .mwr a:hover,
 .banner .mwr a:focus,
-.banner .mwr a:active {
-  transition: background .2s, box-shadow .2s;
+.banner .mwr a:active,
+.banner .docs a:hover,
+.banner .docs a:focus,
+.banner .docs a:active {
+  transition: background .2s;
   background-position:40px;
-  box-shadow: -3px 3px 8px rgba(255,180,0,.7)
 }
 
 @keyframes swosh {
