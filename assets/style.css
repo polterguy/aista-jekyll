@@ -56,7 +56,7 @@ h1 {
   }
   100% {
     margin-left: 0;
-    opacity: 1;
+    opacity: .5;
   }
 }
 
@@ -64,8 +64,9 @@ h1 {
   position: absolute;
   bottom: 1rem;
   left: 1rem;
-  animation: swosh .5s ease-out 1s 1 default forwards;
+  animation: swosh .5s ease-out 1s 1 normal forwards;
   opacity: 0;
+  color: #f0f0f0;
 }
 
 .content {
