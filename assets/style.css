@@ -49,6 +49,25 @@ h1 {
   text-shadow: 3px 3px rgba(0,0,0,.8);
 }
 
+@keyframes swosh {
+  0% {
+    margin-left: 500px;
+    opacity: 0;
+  }
+  100% {
+    margin-left: 0;
+    opacity: 1;
+  }
+}
+
+.banner .description {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  animation: swosh .5s ease-out 1s 1 default forwards;
+  opacity: 0;
+}
+
 .content {
   max-width: 1024px;
   background-color: #151515;
