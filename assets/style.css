@@ -28,15 +28,15 @@ h1 {
 }
 
 .banner {
-  background-color: #2b2b2b;
+  height: 100px;
   padding: 1rem;
   text-align: center;
   border-bottom: solid 1px #202020;
-  background-image: url(/assets/bg.jpeg);
   box-shadow: 0 5px 5px rgb(0,0,0);
   position: fixed;
   z-index: 1;
   width: 100vw;
+  background-image: url(/assets/bg.jpeg);
   background-size: cover;
   box-sizing: border-box;
 }
