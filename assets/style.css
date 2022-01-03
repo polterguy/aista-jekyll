@@ -57,17 +57,10 @@ h1 {
   right: 0;
 }
 
-.banner .docs {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.banner .mwr a,
-.banner .docs a {
+.banner .mwr a {
   min-width: 50px;
   border: solid 1px black;
-  background: linear-gradient(#fc0, #850);
+  background: linear-gradient(rgb(167, 136, 14), rgb(148, 95, 2));
   background-size: 1px 80px;
   color: #111;
   display: block;
@@ -75,22 +68,15 @@ h1 {
   transition: background .2s;
 }
 
-.banner .docs a {
-  border-radius: 0 0 50px 0;
-  padding: 5px 30px 5px 15px;
-}
-
 .banner .mwr a {
+  background: linear-gradient(#fc0, #850);
   border-radius: 0 0 0 50px;
   padding: 5px 15px 5px 30px;
 }
 
 .banner .mwr a:hover,
 .banner .mwr a:focus,
-.banner .mwr a:active,
-.banner .docs a:hover,
-.banner .docs a:focus,
-.banner .docs a:active {
+.banner .mwr a:active {
   transition: background .2s;
   background-position:40px;
 }
@@ -235,10 +221,6 @@ h1 {
   .banner .mwr a {
     min-width: 80px;
     padding: 10px 15px 10px 30px;
-  }
-  .banner .docs a {
-    min-width: 80px;
-    padding: 10px 30px 10px 15px;
   }
   .content {
     padding: 100px 3rem 3rem 3rem;
