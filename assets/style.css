@@ -221,13 +221,13 @@ h1 {
   .banner .mwr a {
     min-width: 80px;
     padding: 10px 15px 10px 30px;
-    transition: padding .5s;
+    transition: padding .2s;
   }
   .banner .mwr a:active,
   .banner .mwr a:hover,
   .banner .mwr a:focus {
     padding: 10px 25px 10px 30px;
-    transition: padding .5s;
+    transition: padding .2s;
   }
   .content {
     padding: 100px 3rem 3rem 3rem;
