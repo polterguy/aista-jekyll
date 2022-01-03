@@ -58,6 +58,7 @@ h1 {
 .banner .mwr a {
   border: solid 1px black;
   background: linear-gradient(#fc0, #850);
+  background-size: 1px 200px;
   color: #111;
   display: block;
   border-radius: 0 0 0 50px;
