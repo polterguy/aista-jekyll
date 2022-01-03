@@ -4,6 +4,7 @@ body {
   color: #bebebe;
   background-color: #111;
   font-family: 'Roboto', sans-serif;
+  background-image: url(/assets/bg2.jpeg);
 }
 
 a {
