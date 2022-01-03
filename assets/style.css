@@ -121,6 +121,7 @@ h1 {
   width: 100%;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  border-collapse: collapse;
 }
 
 .content table tr th {
@@ -129,7 +130,11 @@ h1 {
 }
 
 .content table tr td {
-  padding: .25rem 0 .25rem 0;
+  padding: .25rem .5rem;
+}
+
+.content table tr td a {
+  display: block;
 }
 
 .content table tr:hover td {
