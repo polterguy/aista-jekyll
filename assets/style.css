@@ -60,15 +60,10 @@ h1 {
 .banner .mwr a {
   min-width: 50px;
   border: solid 1px black;
-  background: linear-gradient(rgb(167, 136, 14), rgb(148, 95, 2));
   background-size: 1px 80px;
   color: #111;
   display: block;
   font-weight: bold;
-  transition: background .2s;
-}
-
-.banner .mwr a {
   background: linear-gradient(#fc0, #850);
   border-radius: 0 0 0 50px;
   padding: 5px 15px 5px 30px;
@@ -77,8 +72,7 @@ h1 {
 .banner .mwr a:hover,
 .banner .mwr a:focus,
 .banner .mwr a:active {
-  transition: background .2s;
-  background-position:40px;
+  background: linear-gradient(rgb(250, 210, 52), rgb(199, 126, 1));
 }
 
 @keyframes swosh {
