@@ -19,7 +19,7 @@ The theme supports the following YAML settings.
 
 ```
 title: Title of site
-description: Sllogan of site
+description: Slogan of site
 google_analytics: xx-123456789-2
 copyright: © Acme, Inc 2020 - 2022, foo@bar.com
 mwr: /some-relative/url/
