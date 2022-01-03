@@ -68,15 +68,12 @@ h1 {
   background: linear-gradient(#fc0, #850);
   border-radius: 0 0 0 50px;
   padding: 5px 15px 5px 30px;
-  transition: padding .5s;
 }
 
 .banner .mwr a:hover,
 .banner .mwr a:focus,
 .banner .mwr a:active {
   background: linear-gradient(rgb(250, 210, 52), rgb(199, 126, 1));
-  padding: 10px 15px 10px 30px;
-  transition: padding .5s;
 }
 
 @keyframes swosh {
@@ -224,6 +221,13 @@ h1 {
   .banner .mwr a {
     min-width: 80px;
     padding: 10px 15px 10px 30px;
+    transition: padding .5s;
+  }
+  .banner .mwr a:active,
+  .banner .mwr a:hover,
+  .banner .mwr a:focus {
+    padding: 15px 15px 15px 30px;
+    transition: padding .5s;
   }
   .content {
     padding: 100px 3rem 3rem 3rem;
