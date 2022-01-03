@@ -45,7 +45,7 @@ h1 {
 
 .banner .logo {
   color: #fc0;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 2rem;
   margin: 1rem;
   text-shadow: 3px 3px rgba(0,0,0,.8);
@@ -209,7 +209,7 @@ h1 {
     background-attachment: fixed;
   }
   .banner .logo {
-    font-size: 1.5rem;
+    font-size: 2rem;
     line-height: 2rem;
   }
   .banner .mwr a {
