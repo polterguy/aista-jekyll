@@ -104,8 +104,8 @@ h1 {
 
 .banner .sections .creative {
   position: absolute;
-  bottom: .5rem;
-  right: .5rem;
+  top: .5rem;
+  left: .5rem;
   color: #777;
   font-style: italic;
   font-size: .7rem;
