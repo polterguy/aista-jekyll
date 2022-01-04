@@ -282,7 +282,7 @@ h1 {
   .banner .sections .section {
     flex: .25;
   }
-  .banner .sections .thank-you {
+  .banner .sections .creative {
     position: absolute;
     bottom: .5rem;
     right: .5rem;
