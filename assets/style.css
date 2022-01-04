@@ -42,6 +42,7 @@ h1 {
   background-image: url(/assets/bg.jpeg);
   box-sizing: border-box;
   transition: height .2s;
+  overflow: hidden;
 }
 
 .banner.expanded {
@@ -63,12 +64,6 @@ h1 {
   right: 0;
 }
 
-.banner .menu-btn {
-  position: absolute;
-  bottom: .5rem;
-  right: .5rem;
-}
-
 .banner .mwr a {
   min-width: 50px;
   border: solid 1px black;
@@ -85,6 +80,22 @@ h1 {
 .banner .mwr a:focus,
 .banner .mwr a:active {
   background: linear-gradient(rgb(250, 210, 52), rgb(199, 126, 1));
+}
+
+.banner .menu-btn {
+  position: absolute;
+  bottom: .5rem;
+  right: .5rem;
+}
+
+.banner .menu {
+  margin-top: 50px;
+}
+
+.banner .menu ul li {
+  list-style-type: none;
+  float: left;
+  margin-right: 3rem;
 }
 
 @keyframes swosh {
