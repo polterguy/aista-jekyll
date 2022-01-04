@@ -109,6 +109,11 @@ h1 {
   padding-left: 0;
 }
 
+.banner .sections .section .section-title .nav li {
+  list-style-type: none;
+  text-align: left;
+}
+
 @keyframes swosh {
   0% {
     margin-left: 800px;
