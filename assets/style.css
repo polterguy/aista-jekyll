@@ -272,7 +272,7 @@ h1 {
     flex-direction: row;
   }
   .banner .sections .section {
-    flex: 1;
+    flex: .25;
   }
   .content {
     padding: 100px 3rem 3rem 3rem;
