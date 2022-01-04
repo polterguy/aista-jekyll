@@ -102,28 +102,6 @@ h1 {
   text-align: left;
 }
 
-.banner .sections .creative {
-  position: absolute;
-  top: .5rem;
-  left: .5rem;
-  color: #777;
-  font-style: italic;
-  font-size: .7rem;
-  display: none;
-  opacity: 0;
-  transition: opacity .5s;
-}
-
-.banner .sections .creative a {
-  color: #f0f0f0;
-}
-
-.banner.expanded .sections .creative {
-  display: block;
-  opacity: .5;
-  transition: opacity .5s;
-}
-
 .banner .sections .section .section-title {
   margin-top: 1rem;
   margin-bottom: 0;
@@ -270,7 +248,18 @@ h1 {
   text-align: center;
   color: #555;
   margin-top: 2rem;
-  margin-bottom: 0;
+  margin-bottom: 2rem;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.content .creative {
+  font-size: .8rem;
+  text-align: center;
+  color: #555;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
   position: absolute;
   bottom: 1rem;
   right: 1rem;
