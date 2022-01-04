@@ -96,7 +96,13 @@ h1 {
 .banner ul.menu li {
   list-style-type: none;
   float: left;
-  margin-right: 1.5rem;
+  margin-right: .5rem;
+}
+
+.banner ul.menu li a {
+  background: linear-gradient(#fc0, #850);
+  color: #111;
+  border-radius: .5rem;
 }
 
 @keyframes swosh {
