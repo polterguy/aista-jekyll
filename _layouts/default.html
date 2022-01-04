@@ -16,15 +16,21 @@
       <div class="logo"><a href="/">{{ site.title }}</a></div>
       <span class="description">{{ site.description }}</span>
 
-      {% if site.menu_items %}
+      {% if site.nav_sections %}
       <a href="#" class="menu-btn" onclick="toggleMenu(event);">
         <img src="/assets/menu.svg" alt="Toggle menu">
       </a>
-      <ul class="menu">
-        {% for idx in site.menu_items %}
-        <li><a href="{{ idx.url }}">{{ idx.name }}</a></li>
-        {% endfor %}
-      </ul>
+
+      {% for idxSection in site.nav_sections %}
+      <div>
+        <h2 class="section-title">{{ idxSection.name }}</h2>
+        <ul class="menu">
+          {% for idxItem in idxSection.items %}
+          <li><a href="{{ idxItem.url }}">{{ idxItem.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
       {% endif %}
 
     </div>
