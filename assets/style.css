@@ -94,7 +94,7 @@ h1 {
 
 .banner .sections {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .banner .sections .section {
@@ -107,11 +107,9 @@ h1 {
 
 .banner .sections .section .section-title .nav {
   padding-left: 0;
-}
-
-.banner .sections .section .section-title .nav li {
-  list-style-type: none;
   text-align: left;
+  list-style-type: none;
+  padding-left: .5rem;
 }
 
 @keyframes swosh {
