@@ -410,11 +410,3 @@ h1 {
   font-style: italic;
   font-size: .8rem;
 }
-
-.blog-link {
-  position: absolute;
-  bottom: 1rem;
-  left: 1rem;
-  font-style: .7rem;
-  font-style: italic;
-}
