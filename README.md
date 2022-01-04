@@ -15,6 +15,7 @@ To use the theme add something resembling the following to your YAML configurati
 
 ```
 remote_theme: polterguy/aista-jekyll
+permalink: /blog/:title
 title: Title of your site
 description: Slogan of your site
 google_analytics: UA-123456789-1
