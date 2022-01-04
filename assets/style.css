@@ -93,7 +93,7 @@ h1 {
 }
 
 .banner .sections {
-  margin-top: 2rem;
+  margin-top: 2.5rem;
 }
 
 .banner .sections .section {
@@ -102,13 +102,15 @@ h1 {
 
 .banner .sections .section .section-title {
   margin-top: 1rem;
+  margin-bottom: 0;
 }
 
 .banner .sections .section .nav {
   padding-left: 0;
   text-align: left;
   list-style-type: none;
-  padding-left: .5rem;
+  padding-left: 0;
+  margin-top: .25rem;
 }
 
 @keyframes swosh {
