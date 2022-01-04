@@ -2,7 +2,8 @@
 # Aista Jekyll Theme
 
 This is a Jekyll theme created for Aista, Ltd, and more specifically [Magic Cloud](https://polterguy.github.io/) to
-document our project(s). If you want to use it for your own sites, you're welcome to do so.
+document our project(s). If you want to use it for your own sites, you're welcome to do so under the terms of 
+Creative Commons Share-Alike version 3, implying you'll have to keep the back link to our site.
 
 
 ## Installation
@@ -15,19 +16,36 @@ remote_theme: polterguy/aista-jekyll
 
 ## Usage
 
-The theme supports the following YAML settings.
+To use the theme add something resembling the following to your YAML configuration file _"\_config.yml"_.
 
 ```
-title: Title of site
-description: Slogan of site
-google_analytics: xx-123456789-2
-copyright: © Acme, Inc 2020 - 2022, foo@bar.com
-mwr: /some-relative/url/
-mwr_text: Some description for MWR
-og_image: https://some-url.com/foo.png
+remote_theme: polterguy/aista-jekyll
+title: Title of your site
+description: Slogan of your site
+google_analytics: UA-123456789-1
+copyright: © Foo, Ltd 2022
+mwr: /section-1/foo
+mwr_text: Foo 1
+og_image: https://some-url.com/to-open-graph-image.jpeg
+nav_sections:
+  - name: Section 1
+    items:
+      - url: /section-1/foo
+        name: Foo 1
+      - url: /section-1/bar
+        name: Foo 2
+  - name: Section 2
+    items:
+      - url: /section-2/
+        name: Another foo
 ```
+
+The `remote_theme` parts needs to be exactly as above, the rest is intended for configuring your site, and include
+Google Analytics tracking codes, MWR (Most Wanted Response, a link on your site being the most important navigation hyperlink),
+and navigation sections, etc. The navigation sections becomes a navbar that you can toggle at the top of your page
+using a hamburger button.
 
 ## License
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+The theme is freely available as open source under the terms of the [Creative Commons Attribution-ShareAlike 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
 
