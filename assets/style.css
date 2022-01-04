@@ -404,6 +404,6 @@ h1 {
   list-style-type: none;
 }
 
-.blog-item li {
+.content ul.blog-item li {
   list-style-image: none;
 }
