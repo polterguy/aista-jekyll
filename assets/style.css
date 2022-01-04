@@ -48,6 +48,7 @@ h1 {
 .banner.expanded {
   height: 95vh;
   transition: height .2s;
+  overflow: auto;
 }
 
 .banner .logo {
