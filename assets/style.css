@@ -88,14 +88,15 @@ h1 {
   right: .5rem;
 }
 
-.banner .menu {
+.banner ul.menu {
   margin-top: 50px;
+  padding-left: 0;
 }
 
 .banner ul.menu li {
   list-style-type: none;
   float: left;
-  margin-right: 3rem;
+  margin-right: 1.5rem;
 }
 
 @keyframes swosh {

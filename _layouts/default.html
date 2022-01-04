@@ -16,9 +16,12 @@
       <div class="logo"><a href="/">{{ site.title }}</a></div>
       <span class="description">{{ site.description }}</span>
 
+      {% if site.menu_items.size >0 %}
       <a href="#" class="menu-btn" onclick="toggleMenu(event);">
         Menu
       </a>
+      {% endif %}
+
       <ul class="menu">
         <li>Foo</li>
         <li>Bar</li>
