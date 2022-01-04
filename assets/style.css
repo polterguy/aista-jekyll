@@ -106,6 +106,7 @@ h1 {
   border-radius: .25rem;
   padding: .25rem 1rem;
   font-weight: bold;
+  font-size: .8rem;
 }
 
 .banner ul.menu li a:hover,
@@ -272,6 +273,7 @@ h1 {
   }
   .banner ul.menu li a {
     min-width: 5rem;
+    font-size: 1rem;
   }
   .content {
     padding: 100px 3rem 3rem 3rem;
