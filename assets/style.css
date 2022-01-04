@@ -92,8 +92,16 @@ h1 {
   width: 1.5rem;
 }
 
+.banner .sections {
+  margin-top: 2rem;
+}
+
 .banner .sections .section {
   text-align: left;
+}
+
+.banner .sections .section .section-title {
+  margin-top: 1rem;
 }
 
 .banner .sections .section .nav {
