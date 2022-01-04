@@ -100,7 +100,6 @@ h1 {
 }
 
 .banner ul.menu li a {
-  min-width: 5rem;
   display: block;
   background: linear-gradient(#fc0, #850);
   color: #111;
@@ -270,6 +269,9 @@ h1 {
   .banner .mwr a:focus {
     padding: 10px 25px 10px 30px;
     transition: padding .2s;
+  }
+  .banner ul.menu li a {
+    min-width: 5rem;
   }
   .content {
     padding: 100px 3rem 3rem 3rem;
