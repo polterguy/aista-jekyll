@@ -248,7 +248,7 @@ h1 {
   text-align: center;
   color: #555;
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   position: absolute;
   bottom: 1rem;
   right: 1rem;
@@ -259,7 +259,7 @@ h1 {
   text-align: center;
   color: #555;
   margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
   position: absolute;
   bottom: 1rem;
   right: 1rem;
