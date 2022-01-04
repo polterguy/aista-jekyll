@@ -46,7 +46,7 @@ h1 {
 }
 
 .banner.expanded {
-  height: 200px;
+  height: 130px;
   transition: height .2s;
 }
 
@@ -119,6 +119,9 @@ h1 {
   color: #f0f0f0;
   font-style: italic;
   font-size: .8rem;
+}
+.banner.expanded .description {
+  display: none;
 }
 
 .content {
