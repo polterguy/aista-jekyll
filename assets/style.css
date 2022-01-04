@@ -58,6 +58,12 @@ h1 {
   right: 0;
 }
 
+.banner .menu {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 .banner .mwr a {
   min-width: 50px;
   border: solid 1px black;
