@@ -106,11 +106,13 @@ h1 {
 }
 
 .banner .sections .section .nav {
-  padding-left: 0;
+  padding-left: 1rem;
   text-align: left;
-  list-style-type: none;
-  padding-left: 0;
   margin-top: .5rem;
+}
+
+.banner .sections .section .nav li {
+  list-style-image: url(/assets/bullet.png);
 }
 
 .banner .sections .section .nav li {
