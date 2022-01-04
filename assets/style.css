@@ -46,7 +46,7 @@ h1 {
 }
 
 .banner.expanded {
-  height: 130px;
+  height: 140px;
   transition: height .2s;
 }
 
@@ -106,6 +106,7 @@ h1 {
   color: #111;
   border-radius: .25rem;
   padding: .25rem 1rem;
+  font-weight: bold;
 }
 
 .banner ul.menu li a:hover,
