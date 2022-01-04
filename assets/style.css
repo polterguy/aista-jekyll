@@ -169,7 +169,7 @@ h1 {
 .content {
   max-width: 1024px;
   background: linear-gradient(#202020, #090909);
-  padding: 100px 1rem 1rem 1rem;
+  padding: 100px 1rem 5rem 1rem;
   min-height: calc(100vh - 100px);
   position: relative;
 }
