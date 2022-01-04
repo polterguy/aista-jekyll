@@ -40,6 +40,45 @@ Google Analytics tracking codes, MWR (_"Most Wanted Response"_, a link on your s
 and navigation sections, etc. The navigation sections becomes a navbar that you can toggle at the top of your page
 using a hamburger button.
 
+## Usage
+
+The theme is blog aware, assuming you save your blog posts into your _"\_posts"_ folder. To list your blog items, create
+an HTML page and store at your root folder called for instance _"blog.html"_, and fill it with the following content.
+
+```html
+---
+layout: default
+title: The title of your blog
+---
+<h1>The title of your blog</h1>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
+```
+
+To create a single blog item, create a file called for instance _"2022-01-04-new-documentation-website.md"_ and store it
+into your _"\_posts"_ folder and fill it as follows.
+
+```markdown
+---
+layout: post
+author: thomas
+---
+
+Welcome to our new documentation website for Magic Cloud. Hopefully this will make it easier for you
+to find the relevant documentation you are looking for. This site is hosted by GitHub, and we created
+our [own custom Jekyll Theme](https://github.com/polterguy/aista-jekyll) for it, which you are free
+to use as you see fit for your own needs, since we released the theme to the public under the terms
+of Creative Commons Attribution ShareAlike, allowing you to use it for free as long as you provide
+a backlink to our site.
+```
+
 ## License
 
 The theme is freely available as open source under the terms of the [Creative Commons Attribution-ShareAlike 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
