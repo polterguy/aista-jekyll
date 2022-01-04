@@ -3,18 +3,13 @@
 
 This is a Jekyll theme created for Aista, Ltd, and more specifically [Magic Cloud](https://polterguy.github.io/) to
 document our project(s). If you want to use it for your own sites, you're welcome to do so under the terms of 
-Creative Commons Share-Alike version 3, implying you'll have to keep the back link to our site.
+Creative Commons Attribution-ShareAlike version 4, implying you'll have to keep the link to our web site. Below
+is a screenshot of the theme in use over at [Magic Cloud's documentation site](https://polterguy.github.io/).
+
+![Screenshot of theme](https://raw.githubusercontent.com/polterguy/aista-jekyll/master/screenshot.jpg)
 
 
 ## Installation
-
-Add this line to your Jekyll site's `_config.yml`:
-
-```yaml
-remote_theme: polterguy/aista-jekyll
-```
-
-## Usage
 
 To use the theme add something resembling the following to your YAML configuration file _"\_config.yml"_.
 
@@ -41,7 +36,7 @@ nav_sections:
 ```
 
 The `remote_theme` parts needs to be exactly as above, the rest is intended for configuring your site, and include
-Google Analytics tracking codes, MWR (Most Wanted Response, a link on your site being the most important navigation hyperlink),
+Google Analytics tracking codes, MWR (_"Most Wanted Response"_, a link on your site being the most important navigation hyperlink),
 and navigation sections, etc. The navigation sections becomes a navbar that you can toggle at the top of your page
 using a hamburger button.
 
