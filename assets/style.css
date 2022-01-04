@@ -84,8 +84,8 @@ h1 {
 
 .banner .menu-btn {
   position: absolute;
-  top: .5rem;
-  left: .5rem;
+  top: .75rem;
+  left: .75rem;
 }
 
 .banner ul.menu {
@@ -109,7 +109,11 @@ h1 {
   font-size: .8rem;
 }
 
-.banner ul.menu li a:hover,
+.banner ul.menu li a img {
+  width: 1.5rem;
+}
+
+  .banner ul.menu li a:hover,
 .banner ul.menu li a:focus,
 .banner ul.menu li a:active {
   background: linear-gradient(rgb(250, 210, 52), rgb(199, 126, 1));
