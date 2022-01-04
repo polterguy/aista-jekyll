@@ -92,13 +92,7 @@ h1 {
   width: 1.5rem;
 }
 
-.banner .sections {
-  display: flex;
-  flex-direction: row;
-}
-
 .banner .sections .section {
-  flex: 1;
   text-align: left;
 }
 
@@ -265,9 +259,12 @@ h1 {
     padding: 10px 25px 10px 30px;
     transition: padding .2s;
   }
-  .banner ul.menu li a {
-    min-width: 5rem;
-    font-size: 1rem;
+  .banner .sections {
+    display: flex;
+    flex-direction: row;
+  }
+  .banner .sections .section {
+    flex: 1;
   }
   .content {
     padding: 100px 3rem 3rem 3rem;
