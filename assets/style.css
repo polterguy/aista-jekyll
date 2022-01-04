@@ -39,6 +39,7 @@ h1 {
   position: fixed;
   z-index: 1;
   width: 100vw;
+  background-color: #111;
   background-image: url(/assets/bg.jpeg);
   box-sizing: border-box;
   transition: height .2s;

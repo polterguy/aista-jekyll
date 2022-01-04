@@ -20,7 +20,7 @@
       <a href="#" class="menu-btn" onclick="toggleMenu(event);">
         <img src="/assets/menu.svg" alt="Toggle menu">
       </a>
-      <div class="sections">
+      <nav class="sections">
         {% for idxSection in site.nav_sections %}
         <div class="section">
           <h3 class="section-title">{{ idxSection.name }}</h3>
@@ -31,7 +31,7 @@
           </ul>
         </div>
         {% endfor %}
-      </div>
+      </nav>
       {% endif %}
 
     </div>
