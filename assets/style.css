@@ -84,8 +84,8 @@ h1 {
 
 .banner .menu-btn {
   position: absolute;
-  top: .75rem;
-  left: .75rem;
+  bottom: .25rem;
+  right: .5rem;
 }
 
 .banner ul.menu {
