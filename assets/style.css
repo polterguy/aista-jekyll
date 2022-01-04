@@ -40,7 +40,6 @@ h1 {
   z-index: 1;
   width: 100vw;
   background-image: url(/assets/bg.jpeg);
-  background-size: cover;
   box-sizing: border-box;
   transition: height .2s;
 }
