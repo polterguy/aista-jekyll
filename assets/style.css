@@ -99,13 +99,10 @@ h1 {
 
 .banner .sections .section {
   flex: 1;
-}
-
-.banner .sections .section .section-title {
   text-align: left;
 }
 
-.banner .sections .section .section-title .nav {
+.banner .sections .section .nav {
   padding-left: 0;
   text-align: left;
   list-style-type: none;
