@@ -46,7 +46,7 @@ h1 {
 }
 
 .banner.expanded {
-  height: 100vh;
+  height: 95vh;
   transition: height .2s;
 }
 
