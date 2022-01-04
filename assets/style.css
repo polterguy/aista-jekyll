@@ -102,6 +102,15 @@ h1 {
   text-align: left;
 }
 
+.banner .sections .creative {
+  position: absolute;
+  bottom: .5rem;
+  right: .5rem;
+  color: #777;
+  font-style: italic;
+  font-size: .7rem;
+}
+
 .banner .sections .section .section-title {
   margin-top: 1rem;
   margin-bottom: 0;
@@ -281,14 +290,6 @@ h1 {
   }
   .banner .sections .section {
     flex: .25;
-  }
-  .banner .sections .creative {
-    position: absolute;
-    bottom: .5rem;
-    right: .5rem;
-    color: #777;
-    font-style: italic;
-    font-size: .7rem;
   }
   .content {
     padding: 100px 3rem 3rem 3rem;
