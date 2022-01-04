@@ -112,6 +112,10 @@ h1 {
   display: none;
 }
 
+.banner .sections .creative a {
+  color: #999;
+}
+
 .banner.expanded .sections .creative {
   display: block;
 }
