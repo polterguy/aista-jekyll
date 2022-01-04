@@ -120,7 +120,7 @@ h1 {
 
 .banner.expanded .sections .creative {
   display: block;
-  opacity: 1;
+  opacity: .3;
   transition: opacity 1s;
 }
 
