@@ -20,12 +20,12 @@
       <a href="#" class="menu-btn" onclick="toggleMenu(event);">
         Menu
       </a>
-      {% endif %}
-
       <ul class="menu">
-        <li>Foo</li>
-        <li>Bar</li>
+        {% for idx in site.menu_items %}
+        <li><a href="{{ idx.url }}">{{ idx.name }}</a></li>
+        {% endfor %}
       </ul>
+      {% endif %}
 
     </div>
 
