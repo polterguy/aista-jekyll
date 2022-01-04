@@ -1,0 +1,4 @@
+
+function toggleMenu() {
+  alert('foo');
+}
