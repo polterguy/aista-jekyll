@@ -413,6 +413,7 @@ h1 {
 
 .blog-link {
   position: absolute;
-  bottom: .5rem;
-  left: .5rem;
+  bottom: 1rem;
+  left: 1rem;
+  font-style: .8rem;
 }
