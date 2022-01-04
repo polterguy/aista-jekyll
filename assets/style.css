@@ -411,3 +411,8 @@ h1 {
   font-size: .8rem;
 }
 
+.blog-link {
+  position: absolute;
+  bottom: .5rem;
+  left: .5rem;
+}
