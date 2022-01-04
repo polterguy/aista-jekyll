@@ -415,5 +415,6 @@ h1 {
   position: absolute;
   bottom: 1rem;
   left: 1rem;
-  font-style: .8rem;
+  font-style: .7rem;
+  font-style: italic;
 }
