@@ -61,6 +61,8 @@ title: The title of your blog
     </li>
   {% endfor %}
 </ul>
+
+<a class="blog-link" href="/blog">Back to blog</a>
 ```
 
 To create a single blog item, create a file called for instance _"2022-01-04-new-documentation-website.md"_ and store it
