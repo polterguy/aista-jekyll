@@ -53,11 +53,11 @@ title: The title of your blog
 ---
 <h1>The title of your blog</h1>
 
-<ul>
+<ul class="blog-item">
   {% for post in site.posts %}
     <li>
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      {{ post.excerpt }}
+      {{ post.content | strip_html | truncatewords: 100 }}
     </li>
   {% endfor %}
 </ul>
