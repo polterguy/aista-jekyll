@@ -100,9 +100,18 @@ h1 {
 }
 
 .banner ul.menu li a {
+  min-width: 5rem;
+  display: block;
   background: linear-gradient(#fc0, #850);
   color: #111;
-  border-radius: .5rem;
+  border-radius: .25rem;
+  padding: .25rem 1rem;
+}
+
+.banner ul.menu li a:hover,
+.banner ul.menu li a:focus,
+.banner ul.menu li a:active {
+  background: linear-gradient(rgb(250, 210, 52), rgb(199, 126, 1));
 }
 
 @keyframes swosh {
