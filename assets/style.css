@@ -130,16 +130,13 @@ h1 {
 
 .banner .description {
   position: absolute;
-  bottom: .5rem;
+  top: 80px;
   left: .5rem;
   animation: swosh .5s ease-out 1s 1 normal forwards;
   opacity: 0;
   color: #f0f0f0;
   font-style: italic;
   font-size: .8rem;
-}
-.banner.expanded .description {
-  display: none;
 }
 
 .content {
