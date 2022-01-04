@@ -109,6 +109,11 @@ h1 {
   color: #777;
   font-style: italic;
   font-size: .7rem;
+  display: none;
+}
+
+.banner.expanded .sections .creative {
+  display: block;
 }
 
 .banner .sections .section .section-title {
