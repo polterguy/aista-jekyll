@@ -20,17 +20,18 @@
       <a href="#" class="menu-btn" onclick="toggleMenu(event);">
         <img src="/assets/menu.svg" alt="Toggle menu">
       </a>
-
-      {% for idxSection in site.nav_sections %}
-      <div>
-        <h2 class="section-title">{{ idxSection.name }}</h2>
-        <ul class="menu">
-          {% for idxItem in idxSection.items %}
-          <li><a href="{{ idxItem.url }}">{{ idxItem.name }}</a></li>
-          {% endfor %}
-        </ul>
+      <div class="sections">
+        {% for idxSection in site.nav_sections %}
+        <div class="section">
+          <h2 class="section-title">{{ idxSection.name }}</h2>
+          <ul class="nav">
+            {% for idxItem in idxSection.items %}
+            <li><a href="{{ idxItem.url }}">{{ idxItem.name }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endfor %}
       </div>
-      {% endfor %}
       {% endif %}
 
     </div>

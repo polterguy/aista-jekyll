@@ -88,35 +88,25 @@ h1 {
   right: .5rem;
 }
 
-.banner ul.menu {
-  margin-top: 5rem;
-  padding-left: 0;
-}
-
-.banner ul.menu li {
-  list-style-type: none;
-  float: left;
-  margin-right: .5rem;
-}
-
-.banner ul.menu li a {
-  display: block;
-  background: linear-gradient(#fc0, #850);
-  color: #111;
-  border-radius: .25rem;
-  padding: .25rem 1rem;
-  font-weight: bold;
-  font-size: .8rem;
-}
-
 .banner a.menu-btn img {
   width: 1.5rem;
 }
 
-  .banner ul.menu li a:hover,
-.banner ul.menu li a:focus,
-.banner ul.menu li a:active {
-  background: linear-gradient(rgb(250, 210, 52), rgb(199, 126, 1));
+.banner .sections {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner .sections .section {
+  flex: 1;
+}
+
+.banner .sections .section .section-title {
+  text-align: left;
+}
+
+.banner .sections .section .section-title .nav {
+  padding-left: 0;
 }
 
 @keyframes swosh {
