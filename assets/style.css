@@ -46,7 +46,7 @@ h1 {
 }
 
 .banner.expanded {
-  height: 140px;
+  height: 100vh;
   transition: height .2s;
 }
 
@@ -89,7 +89,7 @@ h1 {
 }
 
 .banner ul.menu {
-  margin-top: 35px;
+  margin-top: 5rem;
   padding-left: 0;
 }
 
