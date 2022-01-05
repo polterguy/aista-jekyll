@@ -282,6 +282,7 @@ h1 {
   }
   .banner .logo-img {
     display: block;
+    opacity: .5;
   }
   .banner .mwr a {
     min-width: 80px;
