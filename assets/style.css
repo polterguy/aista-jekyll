@@ -135,7 +135,7 @@ h1 {
 
 .banner .description {
   position: absolute;
-  top: 80px;
+  top: 75px;
   left: .5rem;
   animation: swosh .5s ease-out 1s 1 normal forwards;
   opacity: 0;
