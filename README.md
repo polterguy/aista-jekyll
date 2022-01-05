@@ -53,7 +53,7 @@ a Markdown page and store at your root folder and name it for instance _"blog.md
 ```markdown
 ---
 layout: blog
-permalink: /blog/
+permalink: /blog
 ---
 
 Some descriptive spiehl here for your blog ...
