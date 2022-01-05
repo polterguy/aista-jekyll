@@ -53,6 +53,7 @@ a Markdown page and store at your root folder and name it for instance _"blog.md
 ```markdown
 ---
 layout: blog
+permalink: /blog/
 ---
 
 Some descriptive spiehl here for your blog ...
@@ -72,6 +73,22 @@ Bananas are _cool_ because they can be eaten.
 ```
 
 If you do the above, you can go to your site with the relative URL of `/blog/` to see a list of your blogs.
+
+### Creating custom pages
+
+To create custom pages, you can create a markdown file such as the following and store under for instance
+a _"misc"_ folder.
+
+```markdown
+---
+layout: default
+permalink: /about
+---
+
+# About our amazingly cool website
+
+This website is like the coolest website in the world, because it features Bananas!
+```
 
 ## License
 
