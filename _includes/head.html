@@ -12,8 +12,8 @@
     <title>{{ page.title }}</title>
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="og:locale" content="en_US" />
-    <meta name="description" content="{{ page.excerpt }}" />
-    <meta property="og:description" content="{{ page.excerpt }}" />
+    <meta name="description" content="{{ page.content | strip_html | truncatewords: 100 }}" />
+    <meta property="og:description" content="{{ page.content | strip_html | truncatewords: 100 }}" />
     <meta property="og:site_name" content="{{ page.title }}" />
     <meta property="twitter:title" content="{{ page.title }}" />
     {% if site.google_analytics and jekyll.environment == "production" %}
