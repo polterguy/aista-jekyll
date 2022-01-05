@@ -14,8 +14,8 @@
     <meta property="og:locale" content="en_US" />
     <meta name="description" content="{{ page.content | markdownify | strip_html | truncatewords: 50 }}" />
     <meta property="og:description" content="{{ page.content | markdownify | strip_html | truncatewords: 50 }}" />
-    <link rel="canonical" href="{{ page.url | absolute }}" />
-    <meta property="og:url" content="{{ page.url | absolute }}" />
+    <link rel="canonical" href="{{site.url}}{{page.url}}" />
+    <meta property="og:url" content="{{site.url}}{{page.url}}" />
     <meta property="og:site_name" content="{{ page.title }}" />
     <meta name="twitter:card" content="summary" />
     <meta property="twitter:title" content="{{ page.title }}" />
