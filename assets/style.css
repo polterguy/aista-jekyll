@@ -83,11 +83,8 @@ h1 {
   right: 1rem;
 }
 
-.banner a.menu-btn img {
-  width: 1.5rem;
-}
-.banner .hamburger {
-  fill: #888;
+.banner .menu-btn .hamburger {
+  fill: yellow;
 }
 
 .banner .sections {
