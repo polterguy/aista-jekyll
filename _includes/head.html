@@ -10,6 +10,12 @@
     <meta property="og:image" content="{{ site.og_image }}"/>
     {% endif %}
     <title>{{ page.title }}</title>
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="description" content="{{ page.excerpt }}" />
+    <meta property="og:description" content="{{ page.excerpt }}" />
+    <meta property="og:site_name" content="{{ page.title }}" />
+    <meta property="twitter:title" content="{{ page.title }}" />
     {% if site.google_analytics and jekyll.environment == "production" %}
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
     <script>
