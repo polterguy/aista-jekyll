@@ -55,8 +55,9 @@ h1 {
   color: #fc0;
   font-size: 1.5rem;
   line-height: 2rem;
-  margin: 1rem;
+  margin: 1rem 0 1rem 0;
   text-shadow: 3px 3px rgba(0,0,0,.8);
+  text-align: left;
 }
 
 .banner .mwr {
@@ -136,7 +137,7 @@ h1 {
 .banner .description {
   position: absolute;
   top: 75px;
-  left: .5rem;
+  left: .75rem;
   animation: swosh .5s ease-out 1s 1 normal forwards;
   opacity: 0;
   color: #f0f0f0;
@@ -269,6 +270,7 @@ h1 {
   .banner .logo {
     font-size: 2rem;
     line-height: 2rem;
+    text-align: center;
   }
   .banner .mwr a {
     min-width: 80px;
