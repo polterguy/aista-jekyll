@@ -68,7 +68,7 @@ layout: post
 author: john doe
 ---
 
-Bananas are _cool_ because the can be eaten.
+Bananas are _cool_ because they can be eaten.
 ```
 
 If you do the above, you can go to your site with the relative URL of `/blog/` to see a list of your blogs.
