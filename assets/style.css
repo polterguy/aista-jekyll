@@ -236,26 +236,22 @@ h1 {
   margin: 0;
 }
 
-.content .copyright {
+.content .copyright,
+.content .creative {
   font-size: .8rem;
   text-align: center;
   color: #555;
-  margin-top: 2rem;
-  margin-bottom: 0;
   position: absolute;
   bottom: 1rem;
   right: 1rem;
 }
 
+.content .copyright {
+  margin-bottom: 0;
+}
+
 .content .creative {
-  font-size: .8rem;
-  text-align: center;
-  color: #555;
-  margin-top: 2rem;
   margin-bottom: 1rem;
-  position: absolute;
-  bottom: 1rem;
-  right: 1rem;
 }
 
 @media screen and (min-width: 1024px) {
