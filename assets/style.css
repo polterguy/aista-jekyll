@@ -62,10 +62,9 @@ h1 {
 
 .banner .logo-img {
   position: absolute;
-  top: .5rem;
-  left: .5rem;
-  width: 50px;
-  height: auto;
+  top: 1rem;
+  left: 1rem;
+  max-height: 35px;
   display: none;
 }
 
