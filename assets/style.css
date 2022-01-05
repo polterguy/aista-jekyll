@@ -90,7 +90,7 @@ h1 {
 
 .banner .menu-btn:focus .hamburger,
 .banner .menu-btn:hover .hamburger {
-  fill: #c90;
+  fill: #fc0;
   transition: fill .2s;
 }
 
