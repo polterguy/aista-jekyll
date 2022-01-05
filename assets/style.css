@@ -85,6 +85,13 @@ h1 {
 
 .banner .menu-btn .hamburger {
   fill: #888;
+  transition: fill .2s;
+}
+
+.banner .menu-btn:focus .hamburger,
+.banner .menu-btn:hover .hamburger {
+  fill: #c90;
+  transition: fill .2s;
 }
 
 .banner .sections {
