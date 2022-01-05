@@ -396,6 +396,7 @@ h1 {
 
 .blog-item {
   list-style-type: none;
+  padding-left: 0;
 }
 
 .content ul.blog-item li {
