@@ -26,6 +26,8 @@ google_analytics: UA-123456789-1
 copyright: © Foo, Ltd 2022
 mwr: /section-1/foo
 mwr_text: Foo 1
+banner_bg: /assets/bg.jpeg
+body_bg: /assets/bg2.jpeg
 og_image: https://some-url.com/to-open-graph-image.jpeg
 nav_sections:
   - name: Section 1
