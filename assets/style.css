@@ -86,7 +86,7 @@ h1 {
 .banner a.menu-btn img {
   width: 1.5rem;
 }
-.banner a.menu-btn .lines {
+.banner .hamburger {
   fill: #888;
 }
 
