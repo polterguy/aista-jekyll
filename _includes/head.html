@@ -12,8 +12,8 @@
     <title>{{ page.title }}</title>
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="og:locale" content="en_US" />
-    <meta name="description" content="{{ page.content | markdownify | strip_html | truncatewords: 50 }}" />
-    <meta property="og:description" content="{{ page.content | markdownify | strip_html | truncatewords: 50 }}" />
+    <meta name="description" content="{{ page.content | markdownify | strip_html | truncatewords: 40 }}" />
+    <meta property="og:description" content="{{ page.content | markdownify | strip_html | truncatewords: 40 }}" />
     <link rel="canonical" href="{{site.url}}{{page.url}}" />
     <meta property="og:url" content="{{site.url}}{{page.url}}" />
     <meta property="og:site_name" content="{{ page.title }}" />
