@@ -78,12 +78,6 @@ h1 {
   padding: 5px 15px 5px 30px;
 }
 
-.banner .mwr a:hover,
-.banner .mwr a:focus,
-.banner .mwr a:active {
-  background: linear-gradient(rgb(250, 210, 52), rgb(199, 126, 1));
-}
-
 .banner .menu-btn {
   position: absolute;
   top: 70px;
