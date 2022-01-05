@@ -27,8 +27,11 @@ permalink: /blog/:title
 # Title of your site
 title: Title of your site
 
-# Description of your site, or slogan
-description: Slogan of your site
+# Slogan of your site
+slogan: Slogan of your site
+
+# Description of your site
+description: This is the description for your site
 
 # Google Analytics tracking code
 google_analytics: UA-123456789-1
