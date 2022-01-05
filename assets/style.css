@@ -60,14 +60,6 @@ h1 {
   text-align: left;
 }
 
-.banner .logo-img {
-  position: absolute;
-  top: .75rem;
-  left: .75rem;
-  max-height: 35px;
-  display: none;
-}
-
 .banner .mwr {
   position: absolute;
   top: 0;
@@ -279,10 +271,6 @@ h1 {
     font-size: 2rem;
     line-height: 2rem;
     text-align: center;
-  }
-  .banner .logo-img {
-    display: block;
-    opacity: .15;
   }
   .banner .mwr a {
     min-width: 80px;
