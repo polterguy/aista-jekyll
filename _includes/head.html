@@ -12,8 +12,13 @@
     <title>{{ page.title }}</title>
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="og:locale" content="en_US" />
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}" />
+    <meta property="og:description" content="{{ page.description }}" />
+    {% else %}
     <meta name="description" content="{{ page.content | markdownify | strip_html | truncatewords: 40 }}" />
     <meta property="og:description" content="{{ page.content | markdownify | strip_html | truncatewords: 40 }}" />
+    {% endif %}
     <link rel="canonical" href="{{site.url}}{{page.url}}" />
     <meta property="og:url" content="{{site.url}}{{page.url}}" />
     <meta property="og:site_name" content="{{ page.title }}" />
