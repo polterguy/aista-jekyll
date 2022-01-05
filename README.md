@@ -1,7 +1,7 @@
 
 # Aista Jekyll Theme
 
-This is a Jekyll theme created for Aista, Ltd, and more specifically [Magic Cloud](https://polterguy.github.io/) to
+This is a Jekyll theme created for Aista Ltd, and more specifically [Magic Cloud](https://polterguy.github.io/) to
 document our project(s). If you want to use it for your own site, you're welcome to do so under the terms of 
 Creative Commons Attribution-ShareAlike version 4, implying you'll have to keep the link to our web site. Below
 is a screenshot of the theme in use over at [Magic Cloud's documentation site](https://polterguy.github.io/).
