@@ -18,17 +18,36 @@ for a site intended to document an open source framework such as [Magic](https:/
 To use the theme add something resembling the following to your YAML configuration file _"\_config.yml"_.
 
 ```
+# The next line declares you want to use this theme
 remote_theme: polterguy/aista-jekyll
+
+# The next line declares the URL structure of your blog items
 permalink: /blog/:title
+
+# Title of your site
 title: Title of your site
+
+# Description of your site, or slogan
 description: Slogan of your site
+
+# Google Analytics tracking code
 google_analytics: UA-123456789-1
+
+# Copyright displayed in the bottom right corner
 copyright: © Foo, Ltd 2022
+
+# Most Wanted Response, most important link on your site
 mwr: /section-1/foo
 mwr_text: Foo 1
+
+# Background images for banner and the main body/content parts of your site
 banner_bg: /assets/bg.jpeg
 body_bg: /assets/bg2.jpeg
+
+# Open Graph image for pages when shared on Facebook or Twitter, etc
 og_image: https://some-url.com/to-open-graph-image.jpeg
+
+# Your navigation section. Declares the drop down menu items for your hamburger menu.
 nav_sections:
   - name: Section 1
     items:
