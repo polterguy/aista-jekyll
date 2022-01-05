@@ -394,7 +394,7 @@ h1 {
   font-size: .8rem;
 }
 
-.blog-item {
+.content ul.blog-item {
   list-style-type: none;
   padding-left: 0;
 }
