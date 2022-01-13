@@ -306,6 +306,12 @@ h1 {
   }
 }
 
+@media print {
+  .banner {
+    display: none;
+  }
+}
+
 .highlight .highlight {
   background-color: #000;
   padding:.5rem;
