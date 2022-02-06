@@ -4,7 +4,7 @@ Gem::Specification.new do |spec|
   spec.name          = "aista-jekyll"
   spec.version       = "0.5.0"
   spec.authors       = ["Thomas Hansen"]
-  spec.email         = ["th@aista.com"]
+  spec.email         = ["info@aista.com"]
 
   spec.summary       = "A Jekyll theme for documenting GitHub projects."
   spec.homepage      = "https://github.com/polterguy/aista-jekyll"
